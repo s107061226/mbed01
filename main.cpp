@@ -3,8 +3,9 @@
 DigitalOut redLED(LED1);        // set redLED output
 DigitalOut greenLED(LED2);      // set greenLED output
 
-int main(void){
-    while(1){
+int main(void)
+{
+    while(true){
         redLED = 1;         // turn on greedLED for 0.2s 
         greenLED = 0;
         wait(0.2);
